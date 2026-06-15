@@ -1,0 +1,82 @@
+body 
+{
+    background: linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+}
+
+.navbar 
+{
+    background: rgba(0,0,0,.5) ;
+}
+
+.profile-img
+{
+    border:5px solid black;
+    border-radius: 150px;
+}
+
+.btn-info
+{
+    font-weight:bold;
+}
+
+.navbar-nav
+{
+    align-items: center;
+}
+
+.nav-link:hover
+{
+    color:#0dcaf0 !important;
+}
+
+.bi:hover
+{
+    color:#0dcaf0;
+}
+
+.skill-card
+{
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.skill-card:hover
+{
+    transform: translateY(-10px);
+    border: 2px solid green;
+}
+
+.skill-card ul li
+{
+    margin-bottom: 12px;
+    color: #d1d5db;
+}
+
+.project-card
+{
+    border-radius: 15px;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.project-card:hover
+{
+    transform: translateY(-10px);
+    border: 3px solid black;
+}
+
+.project-card img
+{
+    height: 220px;
+}
+
+.form-control
+{
+    background-color: #212529;
+    color: white;
+}
+
+.form-control::placeholder
+{
+    color: white;
+}
